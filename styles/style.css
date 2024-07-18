@@ -1,6 +1,9 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playwrite+AU+VIC:wght@100..400&display=swap');
+
+
 /* .inter-<uniquifier> {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -30,10 +33,33 @@ body{
    margin: 0 auto;
    background-color: #000000;
 }
+.section-description{
+  font-size: 1rem;
+  font-weight:400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn-primary{
+  background-color: var(--button-color);
+  padding: 16px 45px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--primary-font-color);
+  border-radius: 42px;
+  border: none;
+}
+
+.section-main-title{
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--primary-font-color);
+  text-align: center;
+  margin-top: 50px;
+}
+
 /* header section start */
 header{
   max-width: 1060px;
-  height: 715px;
+  /* height: 715px; */
   border: 1px solid green;
   margin: 0 auto;
   background: linear-gradient(180.00deg,#111111FF,#77777700);
@@ -75,7 +101,140 @@ header{
   display: none;
 }
 
+/* nav section ends */
+/* banner-section-start */
+#banner-container{
+  display: flex;
+  height: 700px;
+  align-items: center;
+  border: 1px solid greenyellow;
+}
+.banner-content{
+  max-width: 600px;
+  border: 1px solid tomato;
+}
+.banner-content-title{
+  font-size: 5rem;
+  font-weight: 900;
+  color: var(--primary-font-color);
+  letter-spacing: 0;
+}
+.shape-style{
+  font-weight: 400;
+  font-size: 5rem;
+  font-family: "Playwrite AU VIC", cursive;
+  font-style: italic;
+}
+.button-container{
+  margin-top: 25px;
+}
+.btn-secendary{
+   background-color: transparent;
+  padding: 16px 45px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--primary-font-color);
+  border-radius: 42px;
+
+}
+.banner-image{
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/Images\ 2.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.banner-image-card1{
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  background-color: rgba(48, 48, 48, 0.54);
+  max-width: 220px;
+  height: 96px;
+  border-radius: 12px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  margin-top: 421px;
+}
+.video-icon{
+  font-size: 2rem;
+  background-color: var(--button-color);
+  border-radius: 50%;
+  padding: 10px 15px;
+}
+.card-title{
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--primary-font-color);
+}
+
+.banner-image-card2{
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  background-color: rgba(48, 48, 48, 0.54);
+  max-width: 206px;
+  height: 96px;
+  border-radius: 12px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  margin-top: 140px;
+}
+.card-title2{
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--primary-font-color);
+}
 
 
 
-/* nav section start */
+
+
+/* banner-section-ends */
+/* habit section start hare */
+#habits-section{
+ max-width: 1044px;
+ height: 460px;
+ margin: 0 auto;
+ border: 1px solid red;
+}
+#habits-section .section-description{
+  text-align: center;
+  margin-top: 14px;
+}
+.habits-container{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap: 40px;
+  margin-top: 58px;
+
+}
+.habit-content{
+  max-width: 230px;
+  height: 350px;
+  border: 1px solid greenyellow;
+}
+.habit-image{
+  width: 100%;
+  border-radius: 50%;
+}
+.habit-name{
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--primary-font-color);
+  text-align: center;
+  margin:20px 0px 6px 0px;
+}
+
+
+
+
+
+/* habit section ends hare */

@@ -2,6 +2,35 @@
   #nav-container{
     flex-direction: column;
     gap: 30px;
+    height: auto;
+  }
+   /* banner */
+  #banner-container{
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    height: auto;
+    margin: 20px;
+  }
+  .banner-content-title{
+  font-size: 2.25rem;
+  margin-bottom: 20px;
+  
+}
+.shape-style{
+  font-size: 2.25rem;
+  
+}
+  .button-container{    
+    text-align: center;
+    gap: 30px;
+  }
+ /* habits seciton */
+  .habits-container{
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    height: auto;
+    
   }
   
 }
