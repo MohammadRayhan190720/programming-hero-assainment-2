@@ -25,6 +25,17 @@
     text-align: center;
     gap: 30px;
   }
+  .banner-image{
+  background-position: center; 
+}
+.banner-image-card1{
+  /* margin-top: 350px; */
+  margin-left: 100px;
+}
+.banner-image-card2{
+  margin-top: 100px;
+  margin-right: 150px;
+}
  /* habits seciton */
   .habits-container{
     grid-template-columns: repeat(2,1fr);
@@ -59,5 +70,42 @@
 }
 #training-section > .section-description{
  margin-left: 20px;
+}
+/* BMI section start hare */
+.BMI-container{
+  flex-direction: column;
+  gap: 62px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 30px;
+}
+/* our team section */
+.image-box{
+ max-width: 200px ;
+ height: 272px;
+}
+.image-style{
+  width: 100%;
+  height: 100%;
+}
+.our-team-container{
+  margin: 0px 20px 0px 20px;
+  column-gap: 10px;
+}
+/* footer section */
+#footer-section{
+  flex-direction: column;
+  margin: 0px 20px 0px 20px;
+}
+.footer-title{
+  width: 100%;
+
+}
+.footer-nav{
+ width: 100%;
+
+}
+.our-services{
+  width: 100%;
 }
 }

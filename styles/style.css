@@ -373,3 +373,248 @@ align-items: center;
 
 
 /* training section ends hare */
+/* BMI section start hare */
+#BMI-section{
+  margin-top: 88px;
+
+}
+#BMI-section >.section-description{
+  text-align: center;
+  /* width: 50%; */
+  margin-top: 14px;
+}
+
+.BMI-container{
+  background-color: rgba(34, 34, 34, 1);
+  margin-top: 88px;
+  /* max-width: 1020px; */
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 175px;
+  padding-bottom: 50px;
+ 
+}
+.BMI-calculator-chart{
+  max-width: 310px;
+  margin-top: 50px;
+}
+.BMI-calculator-title{
+  font-size: 1.75rem;
+  color: var(--primary-font-color);
+  font-weight: 700;
+  margin-bottom: 52px;
+}
+.table ,tr,th,td{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+}
+th{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  padding: 14px;
+}
+td{
+  padding: 13px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+}
+.calculate-your-bmi{
+  max-width: 577px;
+  margin-top: 60px;
+
+}
+.BMI-calculator-title1{
+  font-size: 1.75rem;
+  color: var(--primary-font-color);
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.BMI-calculator{
+  margin-top: 34px;
+}
+
+#height{
+  width: calc( 50% - 12px);
+  padding: 13px 185px 13px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 500;
+  
+}
+#weight{
+  width: calc( 50% - 12px );
+  padding: 13px 185px 13px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 12px;
+  
+}
+#age{
+  width: calc( 50% - 12px );
+  padding: 13px 185px 13px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 500;
+   margin-top: 12px;
+
+  
+}
+#sex{
+   width: calc( 50% - 12px );
+  padding: 13px 180px 13px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 500;
+    margin-left: 12px;
+      margin-top: 12px;
+
+
+  
+}
+#activity{
+  width: calc( 100% - 12px );
+  padding: 13px 180px 13px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 34px;
+   margin-top: 12px;
+
+  
+}
+
+
+/* BMI section ends hare */
+/* our team section start hare */
+#our-team{
+  max-width: 1060px;
+  margin: 0 auto;
+  border: 1px solid green;
+}
+#our-team .section-description{
+  text-align: center;
+  margin-top: 14px;
+}
+.our-team-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  row-gap: 20px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 58px;
+  border-radius: 10px;
+}
+.image-box{
+   width: 326px ;
+ height: 272px;
+border: 20px solid rgba(255, 255, 255, 0.1);
+border-radius: 18px;
+
+}
+
+.image-style{
+  width: 100%;
+  height: 100%;
+
+}
+.trainer-name{
+  font-size: 1.25rem;
+  color:#FFFFFF;
+  font-weight:700;
+  margin-top: -50px;
+  padding-left: 20px;
+}
+.trainer-post{
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 20px;
+}
+
+/* our team section ends hare */
+/* footer section start hare */
+footer{
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 88px;
+}
+#footer-section{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1060px;
+  margin: 0 auto;
+  border: 1px solid yellowgreen;
+  padding-top: 65px;
+  gap: 100px;
+  
+}
+.footer-title{
+  width: 30%;
+
+}
+.footer-title .section-description{
+  margin-top: 20px;
+
+}
+.footer-nav{
+ width: 30%;
+
+}
+.our-services{
+  width: 30%;
+}
+.footer-menu-title{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+#footer-section .nav-links{
+  color: rgba(255, 255, 255, 0.5);
+}
+.nav-list{
+  padding-top: 20px;
+}
+.footer-brand{
+  color: var(--button-color);
+  font-size: 5.2rem;
+  font-weight: 900;
+  font-style: italic;
+}
+.hr-style{
+  border-bottom: 1px solid rgba(185, 185, 185, 1);
+  margin-top: 80px;
+  width: 80%;
+  margin: 80px auto;
+}
+.copyright{
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding-bottom: 20px;
+}
