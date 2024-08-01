@@ -52,4 +52,12 @@
  margin: 10px;
  margin-top: 20px;
 }
+
+/* exercise section */
+#training-section > .section-main-title{
+  margin-left: 20px;
+}
+#training-section > .section-description{
+ margin-left: 20px;
+}
 }

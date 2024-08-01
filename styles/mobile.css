@@ -64,5 +64,22 @@
  margin: 10px;
  margin-top: 20px;
 }
+/* exercise section */
+#training-section > .section-main-title{
+  margin-left: 20px;
+  font-size: 2rem;
+}
+#training-section > .section-description{
+ margin-left: 20px;
+}
+.training-container{
+  grid-template-columns: repeat(2,1fr);
+}
+.image-3{
+  display: none;
+}
+.image-6{
+  display: none;
+}
  
 }
