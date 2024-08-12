@@ -92,6 +92,31 @@
   margin: 0px 20px 0px 20px;
   column-gap: 10px;
 }
+/* our package section */
+
+.our-packages-container{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.package{
+  width: 100%;
+}
+.package-img{
+  
+  margin: 0 auto;
+}
+.package-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.package-prize{
+  gap: 20px;
+}
+
+
 /* footer section */
 #footer-section{
   flex-direction: column;

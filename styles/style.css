@@ -557,6 +557,101 @@ border-radius: 18px;
 }
 
 /* our team section ends hare */
+/* our package section start hare */
+#our-packages{
+  max-width: 1060px;
+  margin: 0 auto;
+  border: 1px solid red;
+  margin-bottom: 100px;
+}
+#our-packages .section-description{
+  text-align: center;
+  width: 70%;
+  margin: 20px auto;
+
+}
+.our-packages-container{
+  display: flex;
+  gap: 20px;
+
+}
+.package{
+  background-color: white;
+  /* width: 33%; */
+  box-shadow: 0px 4px 2px 2px rgba(255, 255, 255, .5);
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  margin-top: 50px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  /* border: none; */
+}
+.package:hover{
+    box-shadow: 4px 4px 2px  rgba(255, 255, 255, .5);
+    /* border: 2px solid rgba(255, 255, 255, 0.75); */
+}
+.package-img{
+  max-width: 343px;
+
+}
+.package-img img{
+  width: 100%;
+    border-radius: 10px;
+
+}
+
+.package-description{
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.package-description-title{
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.75);
+}
+.package-duration{
+  font-style: italic;
+    color: rgba(0, 0, 0, 0.75);
+    margin-bottom: 15px;
+
+}
+.package-description-datails{
+      margin-bottom: 20px;
+
+}
+.package-description-datails ul{
+  list-style-type: circle;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 500;
+
+}
+.package-description-datails ul li{
+  list-style-type: circle;
+  margin: 5px 0 5px 0;
+}
+
+.package-prize{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  border-top: 1px solid  rgba(0, 0, 0, 0.5);
+  padding-top: 20px;
+
+}
+.prize{
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.enroll-button .btn-primary{
+  padding: 15px 20px 15px 20px;
+}
+
+
+
+
+/* our features section ends hare */
 /* footer section start hare */
 footer{
   background-color: rgba(255, 255, 255, 0.1);
