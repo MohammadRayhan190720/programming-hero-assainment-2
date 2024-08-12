@@ -61,8 +61,7 @@ header{
   max-width: 1440px;
   /* height: 715px; */
   /* border: 1px solid green; */
-  background: linear-gradient(180.00deg,#111111FF,#77777700);
-  
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);  
 }
 .header-container{
   max-width: 1060px;
